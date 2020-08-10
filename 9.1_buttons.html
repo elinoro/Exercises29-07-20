@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttons</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family:monospace;
+      color: white;
+    }
+    body{
+      margin: 40px auto;
+      max-width: 960px;
+      padding: 30px 30px;
+      background-color: #334660;
+      text-align: center;
+      line-height: 65px;
+      font-size: 24px;
+    }
+
+    .register1{
+      background-color: green;
+      border: 2px green solid;
+      font-size: 18px;
+      width: 160px;
+      height: 60px;
+    }    
+    .register2{
+      background-color: orange;
+      border: 2px orange solid;
+      font-size: 18px;
+      width: 160px;
+      height: 60px;
+    }
+
+    .clear1{
+      background-color: red;
+      border: 2px red solid;
+      font-size: 16px;
+      width: 120px;
+      height: 40px;
+    }
+
+    .clear2{
+      background-color: #F7DC58;
+      border: 2px #F7DC58 solid;
+      font-size: 16px;
+      width: 100px;
+      height: 40px;
+    }
+
+    .submit1{
+      background-color: blue;
+      border: 2px blue solid;
+      font-size: 14px;
+      width: 80px;
+      height: 31px;
+    }
+
+    .submit2{
+      background-color: gray;
+      border: 2px gray solid;
+      font-size: 14px;
+      width: 80px;
+      height: 31px;
+    }
+
+    button{
+      margin: 10px;
+    }
+
+    .round button{
+      border-radius: 25px;
+    }
+    .flatGhost button{
+      background-color: transparent;
+    }
+
+    .roundGhost button{
+      background-color: transparent;
+      border-radius: 25px;
+    }
+
+    .flatGhost button.register1:hover{
+      background-color: green;
+    }
+
+    .flatGhost button.clear1:hover{
+      background-color: red;
+    }
+
+    .flatGhost button.submit1:hover{
+      background-color: blue;
+    }
+
+    .roundGhost button.register2:hover{
+      background-color: orange;
+    }
+
+    .roundGhost button.clear2:hover{
+      background-color: #F7DC58;
+    }
+
+    .roundGhost button.submit2:hover{
+      background-color: gray;
+    }
+
+    .flat button.register1:hover{
+      background-color: rgba(0, 128, 0, 0.719);
+      border: rgba(0, 128, 0, 0.719);
+    }
+
+    .flat button.clear1:hover{
+      background-color: rgba(255, 0, 0, 0.74);
+      border: rgba(255, 0, 0, 0.74);
+    }
+
+    .flat button.submit1:hover{
+      background-color: rgba(0, 0, 255, 0.712);
+      border: rgba(0, 0, 255, 0.712);
+    }
+
+    .round button.register2:hover{
+      background-color: rgba(255, 166, 0, 0.719);
+      border: rgba(255, 166, 0, 0.719);
+    }
+
+    .round button.clear2:hover{
+      background-color: #f7dd58e5;
+      border: #f7dd58e5;
+    }
+
+    .round button.submit2:hover{
+      background-color: rgba(128, 128, 128, 0.671);
+      border: rgba(128, 128, 128, 0.671);
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="flat"><p>Flat</p>
+    <button class="register1"><p>Register</p>
+    <button class="clear1"><p>Clear</p>
+    <button class="submit1"><p>Submit</p>
+  </div>
+  <div class="round"><p>Round</p>
+    <button class="register2"><p>Register</p>
+    <button class="clear2"><p>Clear</p>
+    <button class="submit2"><p>Submit</p>
+  </div>
+  <div class="flatGhost"><p>Flat Ghost</p>
+    <button class="register1"><p>Register</p>
+    <button class="clear1"><p>Clear</p>
+    <button class="submit1"><p>Submit</p>
+  </div>
+  <div class="roundGhost"><p>Round Ghost</p>
+    <button class="register2"><p>Register</p>
+    <button class="clear2"><p>Clear</p>
+    <button class="submit2"><p>Submit</p>
+  </div>
+</body>
+</html>
